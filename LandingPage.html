@@ -47,11 +47,56 @@
 		.font26{font-size: 26px;}
 		.font28{font-size: 28px;}
 		.font36{font-size: 36px;}
+		.pad700{padding: 70px 0;}
+		.marbot15{margin-bottom: 15px;}
 
 		header{padding: 10px 30px; background: rgba(255,255,255, .6);}
 		header p{color: #444546; font-weight: bold; font-size: 20px; padding-top: 20px;}
 		#heroBack{background: url(images/homePageHero.jpg) no-repeat center; background-size: cover; width: 100%; height: 45vh; padding-bottom: 5%;}
 		h1{color: #fff; font-weight: bold; font-size: 48px; padding-top: 15%;}
+		.doc-header{border-radius: 5px; background: #3CB371; text-align: center; color: #2C2C2C; font-weight: bold;
+				    padding: 35px 0; font-size: 24px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;}
+		.doc-bottom{background: url(images/icon_quote.png) no-repeat center #EEEFEF; border-bottom: 4px solid #3CB371; 
+					padding: 50px 25px 10px; color: #2C2C2C; font-size: 18px;}
+		.doc-bottom p{margin-bottom: 15px;}
+		.doc-bottom img{margin-bottom: 15px; margin-top: -130px;}
+		.docJoel{margin-right: 30px;}
+		.docJoel .doc-bottom{padding-bottom: 55px;}
+		.doc-header p{margin-left: 165px;}
+		.docJoel .doc-header p{margin-left: 50px;}
+
+		.smallContainer{width: 770px; margin: 60px auto 0;}
+		#CTA{background: linear-gradient(180deg, #F4B978 0%, #EC8E2A 100%); border-radius: 5px; width: 250px; 
+			box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); font-size: 20px; font-weight: bold; text-align: center; padding: 20px 0;
+		    margin: 60px auto 0; color: #fff;}
+		#CTA:hover{background: #EC8E2A}
+
+		footer{background: #2F8355; text-align: center; color: #fff; padding: 30px 0;}
+
+		@media only screen and (max-width: 1024px) {
+			.doc-header{font-size: 18px;}
+			.doc-header p{margin-left: 130px;}
+		}
+
+		@media only screen and (max-width: 768px) {
+			.flex-container{display: block;}
+			.doc-header{font-size: 24px;}
+			.docJoel{margin-right: 0px; margin-bottom: 40px;}
+		}
+
+		@media only screen and (max-width: 736px) {
+			.row{padding: 0 15px;}
+			h1{font-size: 34px; text-align: center;}
+			.doc-bottom img{margin: 0 auto 20px;}
+			.doc-bottom{padding-top: 20px; text-align: center;}
+			.doc-bottom p{text-align: left;}
+			.doc-header p, .docJoel .doc-header p{margin: 0; text-align: center;}
+		}
+
+		@media only screen and (max-width: 736px) and (orientation: landscape) {
+			#heroBack{height: 85vh;}
+		}
+
 	</style>
 	<!-- <link rel="stylesheet" href="css/home-style.css"> -->
 		<!--[if lt IE 9]>
@@ -71,11 +116,49 @@
 					</div>
 				</div>
 		</div>
-		
+		<div id="main" class="pad700">
+			<div class="row">
+				<div class="container">
+					<div class="flex-container">
+						<div class="doc-div flex1 docJoel">
+							<div class="doc-header">
+								<p>DR. JOEL KAHN</p>
+							</div>
+							<div class="doc-bottom">
+								<img src="images/drjoel.png" alt="" width="168">
+								<p>"One of the world's top cardiologists, DR. JOEL KAHN, is known as "America's Heart Healthy Doc"</p>
+								<p>A published author and leading healthcare practitioner, Dr. Joel Kahn believes that plant-based nutrition is the most powerful source of preventative medicine on the planet.</p>
+								<p>His personal mission is to prevent 1 million heart attacks over the next 2 years by breaking through to the public about how you can prevent and reverse disease by simply adding more fruits and vegetables to your diet."</p>
+							</div>
+						</div>
+						<div class="doc-div flex1">
+							<div class="doc-header">
+								<p>DR. KELLYANN PETRUCCI</p>
+							</div>
+							<div class="doc-bottom">
+								<img src="images/drkellyann.png" alt="" width="168">
+								<p>DR. KELLYANN PETRUCCI is a nationally recognized board-certified naturopathic physician and certified nutrition consultant, who has committed her professional career and personal life to educating the medical community and consumers on the benefits of a healthy lifestyle.</p>
+								<p>She is a New York Times best selling author and the host of the PBS special, 21 Days to a Slimmer, Younger You.</p>
+								<p>As a weight loss and natural anti-aging transformation expert, Dr. Petrucci is a regular guest on television shows including The Doctors, Dr. Oz, and national news programs, and has authored six books.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="smallContainer">
+						<p class="marbot15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+						<p class="marbot15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+						<p class="marbot15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+						<p class="marbot15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+						<script src="https://fast.wistia.com/embed/medias/k2jllnwzxf.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative; margin: 40px auto;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_k2jllnwzxf videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/k2jllnwzxf/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+						<p class="marbot15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.</p>
+						<a href=""><div id="CTA">NEXT STEP</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<footer>
-		
+			<p class="marbot15"><a href="">Privacy Policy</a> | <a href="">terms &amp; Conditions</a> | <a href="">Contact</a></p>
+			<p>©Copyright 2019. All riughts reserved.</p>
 		</footer>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<!-- <script src="js/main.js"></script> -->
 	</body>
 	</html>
